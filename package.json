@@ -1,32 +1,34 @@
 {
-  "name": "thomas-leon-highbaugh-resume",
+  "name": "andrei-volkov-resume",
   "version": "3.1.0",
-  "description": "A tasteful, professional resume written using HTML & Tailwind.css. Based on Universal Resume Template",
-  "homepage": "https://github.com/Thomashighbaugh/resume",
+  "description": "A tasteful, professional resume built with HTML and Tailwind. Based on Universal Resume Template",
+  "homepage": "https://github.com/andreyxdd/resume",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thomashighbaugh/resume"
+    "url": "https://github.com/andreyxdd/resume"
   },
   "bugs": {
-    "url": "https://github.com/Thomashighbaugh/resume/issues"
+    "url": "https://github.com/andreyxdd/resume/issues"
   },
   "license": "MIT",
-  "author": "Thomas Leon Highbaugh <thighbaugh@zoho.com>",
+  "author": "Andrei Volkov <volkov@ualberta.ca>",
   "scripts": {
-    "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
-    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
+    "serve": "concurrently \"postcss ./tailwind.css -r docs/build.css --watch\"  \"live-server --port=8181 --open=./docs\"",
+    "dev": "live-server --port=8181 --open=./docs/index.html",
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -r ./docs/build.css"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "4.0.3",
+    "@fullhuman/postcss-purgecss": "5.0.0",
+    "@types/node": "^18.11.18",
     "autoprefixer": "^10.2.5",
-    "concurrently": "5.3.0",
+    "concurrently": "7.6.0",
     "cross-env": "7.0.3",
-    "cssnano": "4.1.11",
-    "live-server": "1.2.1",
-    "postcss": "8.3.4",
-    "postcss-cli": "8.3.1",
-    "postcss-import": "12.0.1",
+    "cssnano": "5.1.14",
+    "live-server": "1.2.2",
+    "postcss": "8.4.21",
+    "postcss-cli": "10.1.0",
+    "postcss-import": "15.1.0",
     "tailwind-heropatterns": "^0.0.8",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "3.2.4"
   }
 }

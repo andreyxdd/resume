@@ -2,6 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
+  content:["./docs/*.{html,js}"],
   theme: {
     /* For Letter size */
     screens: {
@@ -63,7 +64,7 @@ module.exports = {
           550: "#8b9cbe",
           650: "#555e70",
           750: "#343a40",
-          ...defaultTheme.colors.gray,
+          //...defaultTheme.colors.gray,
         },
         link: "#b2bfd9",
       },
