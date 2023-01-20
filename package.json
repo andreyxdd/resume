@@ -13,9 +13,9 @@
   "license": "MIT",
   "author": "Andrei Volkov <volkov@ualberta.ca>",
   "scripts": {
-    "serve": "concurrently \"postcss ./tailwind.css -r docs/build.css --watch\"  \"live-server --port=8181 --open=./docs\"",
+    "serve": "concurrently \"postcss ./tailwind.css -r docs/build.css --watch\"  \"live-server --port=8181 --open=./docs/index.html\"",
     "dev": "live-server --port=8181 --open=./docs/index.html",
-    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -r ./docs/build.css"
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "5.0.0",
