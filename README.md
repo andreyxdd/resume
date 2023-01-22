@@ -5,7 +5,7 @@
 This repo was inspired by WebPraktikos' [`Universal Résumé Template`](https://github.com/WebPraktikos/universal-resume) and [`an
 adapted version`](https://github.com/Thomashighbaugh/resume) by Thomas Leon Highbaugh.
 
-## How to run it
+### How to run it
 Clone the git repository 
 ```
 git clone https://github.com/andreyxdd/resume
@@ -36,22 +36,22 @@ yarn build
 ```
 
 
-## Starting Point
+### Starting Point
 
 `docs/index.html` is the main content file. Add or update sections, subsection, title, etc.
 
 
-## Custom CSS
+### Custom CSS
 
 Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`.
 
 
-## Printing
+### Printing
 
-### Chrome
+#### Chrome
 
 Right-click → Print.  
 
-### Firefox
+#### Firefox
 
 File → Print.
