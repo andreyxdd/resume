@@ -8,6 +8,6 @@ module.exports = {
     require("postcss-import"),
     require("tailwindcss"),
     require("autoprefixer"),
-    ...(process.env.NODE_ENV === "build" ? [purgecss, require("cssnano")] : null),
+    ...(process.env.NODE_ENV === "build" ? [purgecss, require("cssnano")] : []),
   ],
 };
