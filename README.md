@@ -1,6 +1,6 @@
-# Universal Résumé Template
+## Universal Résumé Template
 
-## Inspiration
+### Inspiration
 
 This repo was inspired by WebPraktikos' [`Universal Résumé Template`](https://github.com/WebPraktikos/universal-resume) and [`an
 adapted version`](https://github.com/Thomashighbaugh/resume) by Thomas Leon Highbaugh.
