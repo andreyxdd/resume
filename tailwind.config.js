@@ -34,12 +34,12 @@ module.exports = {
         normal: "1.34",
       },
       maxWidth: {
-        letter: "72rem",
+        letter: "76.582rem",
       },
       height: {
-        letter: "86.9375rem",
-        "letter-col": "71.625rem",
-        "letter-col-full": "77.9375rem",
+        letter: "92.4699rem",
+        "letter-col": "76.183rem",
+        "letter-col-full": "82.8972rem",
       },
       spacing: {
         0.5: "2px", // 2px
